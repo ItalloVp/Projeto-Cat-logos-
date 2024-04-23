@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgb(189, 180, 168);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+input, button {
+    width: calc(100% - 22px);
+    padding: 20px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 22px;
+    margin: 5px;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+#catalogo {
+    margin-top: 20px;
+}
+
+.form-cadastro, .form-busca {
+    margin-bottom: 10px;
+}
+
+.livro {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}

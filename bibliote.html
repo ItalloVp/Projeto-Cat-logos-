@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Catálogo Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Catalogo Online - InfinitySchool</h1>
+        <div class="form-cadastro">
+            <h2>Formulário de cadastro</h2>
+            <input type="text" id="titulo" placeholder="Título">
+            <input type="text" id="autor" placeholder="Autor">
+            <input type="text" id="genero" placeholder="Gênero">
+            <input type="text" id="ano" placeholder="Ano">
+            <button onclick="addBook()">Adicionar</button>
+
+        </div>
+
+        <div class="form-busca">
+            <input type="text" id="termo-busca" placeholder="Buscar">
+            <button onclick="buscarLivro()">Busca</button>
+        </div>
+
+        <div id="catalogo">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
